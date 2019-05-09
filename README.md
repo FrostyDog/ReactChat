@@ -7,5 +7,5 @@ Experimental chat built on react
 **Backend:** NodeJS + ExpressJS + SocketIO (for WS:)
 
 ## Tech details
-Read `chat/README.MD`
+Read `chat/README.MD`<br>
 Run websocket server `npm run-script serve`
