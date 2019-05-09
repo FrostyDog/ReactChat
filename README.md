@@ -8,3 +8,4 @@ Experimental chat built on react
 
 ## Tech details
 Read `chat/README.MD`
+Run websocket server `npm run-script serve`
