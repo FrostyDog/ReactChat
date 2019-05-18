@@ -2,10 +2,13 @@
 Experimental chat built on react
 
 ## Tech stack
-**Frontend:** ReactJS + Redux?
+**Frontend:** ReactJS
 
-**Backend:** NodeJS + ExpressJS + SocketIO (for WS:)
+**Backend:** NodeJS + SocketIO (for WS:)
 
-## Tech details
-Read `chat/README.MD`<br>
+## Installatino and running
+Installation: `npm install`
+
+Run frontend app `npm start`
+
 Run websocket server `npm run-script serve`

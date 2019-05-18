@@ -13,7 +13,7 @@ class Chat extends React.Component {
     this.componentDidMount = this.componentDidMount.bind(this);
   }
 
-  ws = new WebSocket("ws://localhost:3030");
+  ws = new WebSocket("ws://192.168.1.30:3030");
 
   componentDidMount() {
     this.ws.onmessage = event => {
@@ -29,8 +29,7 @@ class Chat extends React.Component {
   }
 
   addMessage = message => {
-    this.setState({ messages: [message, ...this.state.messages] });
-    console.log(this.state.messages);
+    this.setState({ messages: [...this.state.messages, message] });
   };
 
   SubmitMessage = (nameUser, messageText) => {
@@ -40,6 +39,7 @@ class Chat extends React.Component {
   };
 
   render() {
+    console.log(this.state.messages);
     return (
       <div>
         <Disconnect stance={this.state.stance} />

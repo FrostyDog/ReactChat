@@ -9,7 +9,8 @@
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-scripts": "2.1.8",
-    "vali": "0.0.3"
+    "vali": "0.0.3",
+    "ws": "^7.0.0"
   },
   "devDependencies": {
     "typescript": "3.3.3"
@@ -18,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "node server/server.js"
   },
   "browserslist": [
     ">0.2%",
